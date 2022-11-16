@@ -20,13 +20,45 @@
   body {
     font-family: 'PT Sans', sans-serif;
     color: var(--black);
+    padding-top: 80px;
+  }
+
+  header {
+    background-color: var(--bright-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3px var(--dark-dark-grey);
+    z-index: 1;
   }
   
   /* Utils */
   .container {
     max-width: 500px;
     margin: 0 auto;
-    background-color: #0084FD;
+    background-color: var(--orange);
   }
+
+
+  /* Navbar */
+  .navbar {
+    height: 80px;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .navbar-menu-hidden{
+    display: none;
+  }
+  
+  .navbar-menu-hidden ul{
+    list-style-type: none;
+    display: flex;
+  }
+
   
   
