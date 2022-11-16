@@ -69,6 +69,17 @@
     padding-bottom: 20px;
   }
 
+  .card {
+    min-height: 300px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .card-longer{
+    min-height: 500px;
+  }
+
 
   /* Navbar */
   .navbar {
@@ -94,24 +105,14 @@
     padding: 50px 0;
   }
 
-  .card {
-    min-height: 400px;
-    background-color: green;
-    border: 1px solid black;
-    border-radius: 20px;
-  }
-
-  .card-longer{
-    min-height: 600px;
-  }
-
   /* Sections */
 
-  /* Section testimonials */
-  .section-testimonials-content {
+  .section-testimonials-content, .section-benefits-content {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
+
+    /* Section testimonials */
 
 
 

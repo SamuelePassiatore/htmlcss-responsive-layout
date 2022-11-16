@@ -31,6 +31,12 @@
         flex-direction: column;
     }
 
+    /* Section benefits  */
+
+    .section-benefits .column{
+        padding: 10px 10px;
+    }
+    
 }
 
 
@@ -78,6 +84,13 @@
     .section-testimonials .card {
         min-height: 200px;
     }
+
+    /* Section benefits  */
+    .section-benefits .column{
+        flex-basis: calc(100% / 3);
+    }
+
+    
     
 }
 
