@@ -48,6 +48,10 @@
     display: flex;
   }
   
+  p{
+    line-height: 25px;
+  }
+  
   
   /* Utils */
   .container {
@@ -100,6 +104,10 @@
     padding: 4px 8px;
     border-radius: 20px;
     border: 1px solid transparent;
+  }
+
+  .font-medium {
+    font-size: 17px;
   }
 
   /* Navbar */
@@ -164,6 +172,46 @@
   .section-testimonials-content, .section-benefits-content {
     text-align: center;
     margin-bottom: 30px;
+  }
+
+  /* Section planning */
+  .section-planning .card-normal h1{
+    font-size: 40px;
+    color: var(--white);
+    padding: 30px 0;
+    text-align: left;
+  }
+
+  .section-planning .card-normal p{
+    font-size: 15px;
+    color: var(--white);
+    padding-right: 50px;
+  }
+
+  .section-planning .card-italic {
+    margin-top: 20px;
+    border-radius: 40px;
+    text-align: center;
+    }
+
+  .card-italic h1, .card-italic p{
+    color: var(--black);
+    padding: 10px 0;
+  }
+
+  .card-italic p{
+    padding: 0 130px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  .card-italic button{
+    background-color: var(--purple);
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
   }
 
   /* Section about */

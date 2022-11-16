@@ -30,6 +30,19 @@
         flex-direction: column;
     }
 
+    .section-planning .card-normal h1{
+        font-size: 50px;
+    }
+
+    .section-planning .card-normal p{
+        padding-right: 0;
+    }
+
+    .card-italic p{
+        padding: 0 30px;
+      }
+
+
     /* Section testimonials */
     .section-testimonials .row {
         flex-direction: column;
@@ -99,10 +112,10 @@
         position: relative;
     }
 
-
     /* Section planning */
+
     .section-planning {
-       height: 600px;
+        padding-bottom: 50px;
     }
 
     .section-planning .row {
@@ -121,6 +134,18 @@
     .section-planning .card-lower {
         position: relative;
         bottom: -100px;
+    }
+
+    .section-planning .card-normal h1{
+        font-size: 40px;
+    }
+
+    .card-italic {
+        height: 550px;
+    }
+
+    .section-planning .card-normal h1{
+        padding-top: 100px;
     }
 
     /* Section testimonials */
