@@ -1,0 +1,32 @@
+/* Custom properties */
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --bright-blue: #0084FD;
+    --light-blue: #B5DDFF;
+    --purple: #9792E4;
+    --dark-grey: #333333;
+    --orange: #FDC15F;
+  }
+  
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Generics */
+  body {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--black);
+  }
+  
+  /* Utils */
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #0084FD;
+  }
+  
+  
