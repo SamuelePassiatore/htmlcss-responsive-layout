@@ -33,6 +33,11 @@
     box-shadow: 0 0 3px var(--dark-dark-grey);
   }
 
+  footer {
+    background-color: var(--dark-grey);
+    padding: 20px;
+  }
+
   img{
     display: block;
     max-width: 100%;
@@ -139,6 +144,11 @@
   .underscore {
     text-decoration: underline;
     padding: 0 3px;
+  }
+
+  /* Footer */
+  .footer-contents{
+    text-align: center;
   }
 
   

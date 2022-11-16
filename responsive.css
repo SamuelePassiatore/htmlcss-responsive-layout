@@ -51,6 +51,17 @@
         text-align: right;
     }
 
+    /* Section Get Started */
+    .section-started .container{
+        max-width: 450px;
+        padding: 0 10px;
+    }
+
+    /* Footer */
+    .footer-contents.container{
+        max-width: 450px;
+        padding: 0 10px;
+    }
 }
 
 
@@ -103,10 +114,6 @@
     .section-benefits .column{
         flex-basis: calc(100% / 3);
     }
-
-    /* Section about */
-
-    
-    
+        
 }
 
