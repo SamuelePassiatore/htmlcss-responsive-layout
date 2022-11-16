@@ -17,6 +17,10 @@
         flex-basis: 50%;
     }
 
+    .card, .card-longer {
+        margin: 0 10px;
+    }
+
     /* Section planning */
     .section-planning .card-longer{
         min-height: 400px;
@@ -82,6 +86,20 @@
         display: flex;
     }
 
+    .navbar-menu-hidden li{
+        padding: 3px 10px;
+    }
+
+    .navbar-menu-hidden li:last-child{
+        background-color: var(--white);
+        color: var(--black);
+        border-radius: 20px;
+        padding: 3px 8px;
+        margin-left: 5px;
+        position: relative;
+    }
+
+
     /* Section planning */
     .section-planning {
        height: 600px;
@@ -114,6 +132,6 @@
     .section-benefits .column{
         flex-basis: calc(100% / 3);
     }
-        
+
 }
 

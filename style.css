@@ -31,6 +31,7 @@
     right: 0;
     z-index: 1;
     box-shadow: 0 0 3px var(--dark-dark-grey);
+    color: var(--white);
   }
 
   footer {
@@ -38,9 +39,13 @@
     padding: 20px;
   }
 
-  img{
+  img {
     display: block;
     max-width: 100%;
+  }
+
+  .flex {
+    display: flex;
   }
   
   
@@ -48,7 +53,6 @@
   .container {
     max-width: 500px;
     margin: 0 auto;
-    background-color: var(--orange);
   }
 
   .bg-white{
@@ -57,6 +61,10 @@
 
   .bg-purple{
     background-color: var(--purple);
+  }
+
+  .bg-light-blue {
+    background-color: var(--light-blue);
   }
 
   .section{
@@ -76,9 +84,8 @@
 
   .card {
     min-height: 300px;
-    background-color: green;
-    border: 1px solid black;
     border-radius: 20px;
+    padding-top: 30px;
   }
 
   .card-longer{
@@ -89,6 +96,12 @@
     padding: 0 10px;
   }
 
+  .button{
+    padding: 4px 8px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+  }
+
   /* Navbar */
   .navbar {
     height: 80px;
@@ -96,7 +109,10 @@
     flex-basis: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+  }
+
+  .navbar-logo img{
+    padding: 10px 0;
   }
 
   .navbar-menu-hidden{
@@ -111,6 +127,36 @@
   /* Jumbotron */
   .jumbotron{
     padding: 50px 0;
+    text-align: center;
+  }
+
+  .jumbotron h1{
+    color: var(--bright-blue);
+    padding-top: 20px;
+  }
+
+  .jumbotron p{
+    padding: 20px 50px;
+    font-size: 15px;
+  }
+
+  .jumbotron .button{
+    width: 70%;
+    color: var(--white);
+    background-color: var(--bright-blue);
+  }
+
+  .jumbotron .fa-apple{
+    padding-right: 10px;
+  }
+
+  .jumbotron img{
+    margin-top: 20px;
+    height: 100%;
+  }
+
+  .jumbotron .fa-solid{
+    color: var(--bright-blue);
   }
 
   /* Sections */
@@ -125,10 +171,6 @@
     display: flex;
     flex-direction: column;
     padding: 10px 0;
-  }
-
-  h2, p, img, h4, button {
-    padding-bottom: 10px;
   }
 
   /* Section Get started */
