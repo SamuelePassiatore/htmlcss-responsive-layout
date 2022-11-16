@@ -15,6 +15,14 @@
         flex-basis: 50%;
     }
 
+    .section-planning .card-longer{
+        min-height: 400px;
+    }
+
+    .section-planning .row {
+        flex-direction: column;
+    }
+
 }
 
 
@@ -31,5 +39,30 @@
     .navbar-menu-hidden{
         display: flex;
     }
+
+    .section-planning {
+       height: 600px;
+    }
+
+    .section-planning .row {
+        flex-direction: row;
+    }
+
+    .section-planning .column {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-planning .card {
+        width: 80%;
+    }
+
+    .section-planning .card-lower {
+        position: relative;
+        bottom: -100px;
+    }
+
+
+    
 }
 

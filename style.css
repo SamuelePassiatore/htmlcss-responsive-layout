@@ -29,9 +29,15 @@
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 0 3px var(--dark-dark-grey);
     z-index: 1;
+    box-shadow: 0 0 3px var(--dark-dark-grey);
   }
+
+  img{
+    display: block;
+    max-width: 100%;
+  }
+  
   
   /* Utils */
   .container {
@@ -50,6 +56,17 @@
 
   .section{
     padding: 50px 0;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex-basis: 100%;
+    padding-bottom: 10px;
   }
 
 
@@ -77,32 +94,20 @@
     padding: 50px 0;
   }
 
-  .row{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .column {
-    flex-basis: 100%;
-    padding-bottom: 10px;
-  }
-
   .card {
-    min-height: 300px;
+    min-height: 400px;
     background-color: green;
     border: 1px solid black;
     border-radius: 20px;
   }
 
-  .card-longer {
-    min-height: 500px;
+  .card-longer{
+    min-height: 600px;
   }
 
   /* Sections */
 
   /* Section strategic planning */
-  
 
 
 
