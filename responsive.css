@@ -3,10 +3,12 @@
 
 /* Responsive Layout Tablet - 768px  */
 @media screen and (min-width: 768px){
+    /* Container */
     .container{
         max-width: 700px;
     }
 
+    /* General */
     .row {
         flex-direction: row;
     }
@@ -15,6 +17,7 @@
         flex-basis: 50%;
     }
 
+    /* Section planning */
     .section-planning .card-longer{
         min-height: 400px;
     }
@@ -23,15 +26,23 @@
         flex-direction: column;
     }
 
+    /* Section testimonials */
+    .section-testimonials .row {
+        flex-direction: column;
+    }
+
 }
 
 
 /* Responsive Layout Desktop - 1200px */
 @media screen and (min-width: 1200px){
+    
+    /* Container */
     .container{
         max-width: 800px;
     }
 
+    /* Navbar */
     .navbar-menu-visible{
         display: none;
     }
@@ -40,6 +51,7 @@
         display: flex;
     }
 
+    /* Section planning */
     .section-planning {
        height: 600px;
     }
@@ -62,7 +74,10 @@
         bottom: -100px;
     }
 
-
+    /* Section testimonials */
+    .section-testimonials .card {
+        min-height: 200px;
+    }
     
 }
 
