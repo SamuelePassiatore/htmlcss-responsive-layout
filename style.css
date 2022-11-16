@@ -40,6 +40,18 @@
     background-color: var(--orange);
   }
 
+  .bg-white{
+    background-color: var(--white);
+  }
+
+  .bg-purple{
+    background-color: var(--purple);
+  }
+
+  .section{
+    padding: 50px 0;
+  }
+
 
   /* Navbar */
   .navbar {
@@ -59,6 +71,45 @@
     list-style-type: none;
     display: flex;
   }
+
+  /* Jumbotron */
+  .jumbotron{
+    padding: 50px 0;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex-basis: 100%;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    min-height: 300px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  .card-longer {
+    min-height: 500px;
+  }
+
+  /* Sections */
+
+  /* Section strategic planning */
+  
+
+
+
+
+
+
+
 
   
   

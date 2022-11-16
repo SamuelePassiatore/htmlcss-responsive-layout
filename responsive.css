@@ -1,15 +1,24 @@
-/* Responsive Layout Mobile - min-width: 576px */
+/* Responsive Layout Mobile - 576px */
 
 
-/* Responsive Layout Tablet */
+/* Responsive Layout Tablet - 768px  */
 @media screen and (min-width: 768px){
     .container{
         max-width: 700px;
     }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .column {
+        flex-basis: 50%;
+    }
+
 }
 
 
-/* Responsive Layout Desktop */
+/* Responsive Layout Desktop - 1200px */
 @media screen and (min-width: 1200px){
     .container{
         max-width: 800px;
