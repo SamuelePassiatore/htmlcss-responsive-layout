@@ -32,11 +32,25 @@
     }
 
     /* Section benefits  */
-
     .section-benefits .column{
         padding: 10px 10px;
     }
-    
+
+    /* Section about */
+    .section-about-description{
+        flex-direction: row;
+        padding: 10px 10px;
+    }
+
+    .section-about-text{
+        flex-basis: 60%;
+    }
+
+    .section-about-image{
+        flex-basis: 40%;
+        text-align: right;
+    }
+
 }
 
 
@@ -85,10 +99,12 @@
         min-height: 200px;
     }
 
-    /* Section benefits  */
+    /* Section benefits */
     .section-benefits .column{
         flex-basis: calc(100% / 3);
     }
+
+    /* Section about */
 
     
     

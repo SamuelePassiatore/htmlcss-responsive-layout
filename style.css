@@ -112,7 +112,21 @@
     margin-bottom: 30px;
   }
 
-    /* Section testimonials */
+  /* Section about */
+  .section-about-description{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  h2, p, img, h4, button {
+    padding-bottom: 10px;
+  }
+
+  
+
+
+
 
 
 
