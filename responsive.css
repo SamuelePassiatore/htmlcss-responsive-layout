@@ -1,7 +1,8 @@
-/* Responsive Layout Mobile - 576px */
+/* !Responsive Layout Mobile - 576px */
 
 
-/* Responsive Layout Tablet - 768px  */
+/* !Responsive Layout Tablet - 768px  */
+
 @media screen and (min-width: 768px){
     /* Container */
     .container{
@@ -44,9 +45,35 @@
 
 
     /* Section testimonials */
+    .section-testimonials-content > p {
+        padding: 0 40px;
+        padding-bottom: 10px;
+      }
+
     .section-testimonials .row {
         flex-direction: column;
     }
+
+    .section-testimonials .card {
+        flex-direction: row;
+        min-height: 200px;
+        padding: 10px;
+    }
+
+    .img-content {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-content > p, span {
+        text-align: left;
+    }
+
+    .img-content > span {
+       padding-left: 20px;
+    }
+
 
     /* Section benefits  */
     .section-benefits .column{
@@ -82,7 +109,10 @@
 }
 
 
-/* Responsive Layout Desktop - 1200px */
+
+
+/* !Responsive Layout Desktop - 1200px */
+
 @media screen and (min-width: 1200px){
     
     /* Container */
@@ -149,8 +179,18 @@
     }
 
     /* Section testimonials */
+    
+    .section-testimonials-content > p {
+        padding: 0 0;
+        padding-bottom: 10px;
+      }
+
     .section-testimonials .card {
         min-height: 200px;
+    }
+
+    .img-content {
+        width: 80%;
     }
 
     /* Section benefits */
