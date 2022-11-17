@@ -167,6 +167,23 @@
     color: var(--bright-blue);
   }
 
+  .row-jumbotron{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .column-jumbotron {
+    flex-basis: 100%;
+    padding-bottom: 20px;
+  }
+
+  .card-jumbotron{
+    min-height: 300px;
+    border-radius: 20px;
+    padding-top: 30px;
+  }
+
   /* Sections */
 
   /* Section planning */
@@ -302,11 +319,62 @@
   }
  
   /* Section about */
+
+  .section-about {
+    padding-bottom: 20px;
+  }
+  
   .section-about-description{
     display: flex;
     flex-direction: column;
     padding: 10px 0;
   }
+
+  .section-about-text h1 {
+    font-size: 40px;
+    color: var(--purple);
+    margin-bottom: 30px;
+  }
+
+  .section-about-text p {
+    margin-bottom: 30px;
+  }
+
+  .section-about .img-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .section-about img {
+    height: 100%;
+  }
+
+  .section-about .img-content{
+    position: relative;
+  }
+
+  .fa-quote-left {
+    color: var(--purple);
+    position: absolute;
+    top: -140px;
+    left: 40%;
+  }
+
+  .section-about .img-content h2 {
+    padding-top: 15px;
+  }
+
+  .section-about .img-content button{
+    color: var(--white);
+  }
+
+  .img-content button .fa-linkedin {
+    padding: 0 5px;
+  }
+
+
 
   /* Section Get started */
   .section-started-content{
