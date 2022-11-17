@@ -169,11 +169,6 @@
 
   /* Sections */
 
-  .section-testimonials, .section-benefits-content {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
   /* Section planning */
   .section-planning .card-normal h1{
     font-size: 40px;
@@ -215,6 +210,11 @@
   }
 
   /* Section testimonials  */
+  .section-testimonials {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   .section-testimonials-content > span {
     text-transform: uppercase;
   }
@@ -266,14 +266,41 @@
     text-transform: uppercase;
   }
 
+  /* Section benefits  */
+  .section-benefits h1 {
+    font-size: 40px;
+  }
 
-  
-  
+  .section-benefits-content h1 {
+    color: var(--white);
+    margin-bottom: 20px;
+  }
 
+  .section-benefits-content {
+    width: 60%;
+  }
 
+  .section-benefits .card {
+    padding: 30px;
+  }
 
+  .section-benefits .card h1, h2, p, button {
+    margin-bottom: 20px;
+  }
 
+  .section-benefits .card h1, h2, button {
+    color: var(--purple);
+  }
 
+  .section-benefits .card p {
+    padding-right: 100px;
+  }
+
+  .section-benefits .card .button {
+    color: var(--white);
+    width: 30%;
+  }
+ 
   /* Section about */
   .section-about-description{
     display: flex;

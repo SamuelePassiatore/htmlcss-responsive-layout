@@ -80,6 +80,19 @@
         padding: 10px 10px;
     }
 
+    .section-benefits .card .button {
+        width: 40%;
+    }
+
+    .section-benefits-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-benefits .card p {
+        padding-right: 20px;
+    }
+    
     /* Section about */
     .section-about-description{
         flex-direction: row;
@@ -196,6 +209,18 @@
     /* Section benefits */
     .section-benefits .column{
         flex-basis: calc(100% / 3);
+    }
+
+    .section-benefits .card {
+        padding: 20px;
+    }
+
+    .section-benefits .card p {
+        padding-right: 0;
+    }
+
+    .section-benefits .card .button {
+        width: 50%;
     }
 
 }
