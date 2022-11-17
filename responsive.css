@@ -23,21 +23,29 @@
     }
 
     /* Jumbotron */
-    .row-jumbotron{
+    .row-jumbotron {
+        display: flex;
         flex-direction: row;
-    }
-   
-    .column-jumbotron {
-        flex-basis: calc(100% / 3 * 2);
-    }
-    
-    .card-jumbotron{
-        min-height: 300px;
-        border-radius: 20px;
-        padding-top: 30px;
+        flex-wrap: wrap;
+        margin: -10px;
       }
 
+    .col-jumbotron {
+        padding: 10px;
+    }
 
+    .col-normal {
+        flex-basis: calc(100% / 3);
+    }
+
+    .col-bigger {
+        flex-basis: calc(100% / 3 * 2);
+    }
+
+    .card-jumbotron {
+        margin-bottom: 0;
+    }
+    
     /* Section planning */
     .section-planning .card-longer{
         min-height: 400px;
@@ -200,6 +208,10 @@
         margin-left: 5px;
         position: relative;
     }
+
+    /* Jumbotron */
+
+    
 
     /* Section planning */
 

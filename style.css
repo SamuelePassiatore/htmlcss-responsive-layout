@@ -113,6 +113,10 @@
     font-size: 17px;
   }
 
+  .pt-20{
+    padding-top: 20px 0;
+  }
+
   /* Navbar */
   .navbar {
     height: 80px;
@@ -141,9 +145,16 @@
     text-align: center;
   }
 
+  .card-jumbotron {
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+  }
+
   .jumbotron h1{
     color: var(--bright-blue);
-    padding-top: 20px;
+
   }
 
   .jumbotron p{
@@ -168,23 +179,6 @@
 
   .jumbotron .fa-solid{
     color: var(--bright-blue);
-  }
-
-  .row-jumbotron{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .column-jumbotron {
-    flex-basis: 100%;
-    padding-bottom: 20px;
-  }
-
-  .card-jumbotron{
-    min-height: 300px;
-    border-radius: 20px;
-    padding-top: 30px;
   }
 
   /* Sections */
