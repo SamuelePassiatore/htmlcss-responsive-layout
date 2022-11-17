@@ -134,6 +134,24 @@
         padding: 0 10px;
     }
 
+    .section-started-content > h1 {
+        font-size: 60px;
+      }
+    
+      .section-started-content > h2 {
+        padding: 10px 50px;
+      }
+    
+      .section-started-content > p {
+        font-size: 15px;
+        padding: 0 20px;
+      }
+      
+      .section-started-content > button {
+        width: 40%;
+        padding: 14px 12px;
+      }
+
     /* Footer */
     .footer-contents.container{
         max-width: 450px;
@@ -257,6 +275,7 @@
     .section-about .img-content h2 {
         padding-right: 50px;
     }
+
     
 
 }
