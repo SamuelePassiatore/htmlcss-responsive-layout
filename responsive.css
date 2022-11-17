@@ -136,26 +136,34 @@
 
     .section-started-content > h1 {
         font-size: 60px;
-      }
+    }
     
-      .section-started-content > h2 {
+    .section-started-content > h2 {
         padding: 10px 50px;
-      }
+    }
     
-      .section-started-content > p {
+    .section-started-content > p {
         font-size: 15px;
         padding: 0 20px;
-      }
-      
-      .section-started-content > button {
+    }
+    
+    .section-started-content > button {
         width: 40%;
         padding: 14px 12px;
-      }
+    }
 
     /* Footer */
     .footer-contents.container{
         max-width: 450px;
         padding: 0 10px;
+    }
+
+    .footer-contents > p {
+        padding: 10px 10px;
+    }
+
+    .footer-contents:last-child{
+        padding: 10px 20px;
     }
 }
 

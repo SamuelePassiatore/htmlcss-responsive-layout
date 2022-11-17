@@ -38,6 +38,8 @@
   footer {
     background-color: var(--dark-grey);
     padding: 20px;
+    color: var(--white);
+    font-size: 15px;
   }
 
   img {
@@ -421,6 +423,15 @@
   /* Footer */
   .footer-contents{
     text-align: center;
+  }
+
+  .footer-contents > p {
+    padding: 10px 80px;
+  }
+
+  .footer-contents > p > span{
+    color: var(--purple);
+    text-decoration: underline;
   }
 
   
