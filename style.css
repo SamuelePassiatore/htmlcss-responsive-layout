@@ -217,6 +217,7 @@
   .card-italic button{
     background-color: var(--purple);
     border: 1px solid transparent;
+    color: var(--white);
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -265,6 +266,7 @@
 
   .section-testimonials img {
     height: 100%;
+    object-fit: cover;
   }
 
   .img-content {
