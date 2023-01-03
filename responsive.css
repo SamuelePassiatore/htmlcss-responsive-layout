@@ -45,6 +45,10 @@
     .card-jumbotron {
         margin-bottom: 0;
     }
+
+    .card-space {
+        height: 100%;
+    }
     
     /* Section planning */
     .section-planning .card-longer{
@@ -211,7 +215,9 @@
 
     /* Jumbotron */
 
-    
+    .card-bigger {
+        display: flex;
+    }
 
     /* Section planning */
 
